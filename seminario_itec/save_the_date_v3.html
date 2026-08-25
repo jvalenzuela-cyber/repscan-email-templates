@@ -11,8 +11,6 @@
   @media only screen and (max-width: 620px) {
     .px { padding-left: 24px !important; padding-right: 24px !important; }
     .h1 { font-size: 22px !important; }
-    .col { display: block !important; width: 100% !important; }
-    .col-gap { height: 14px !important; line-height: 14px !important; }
     .btn, .btn table { width: 100% !important; }
     .btn a { text-align: center !important; }
   }
@@ -107,40 +105,34 @@
 </td></tr>
 
 <tr><td class="px" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:0 40px 8px 40px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-    <!-- presencial -->
-    <td class="col" width="52%" valign="top">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F7FA" style="background-color:#F5F7FA;border-radius:8px;"><tr><td style="padding:20px 18px;">
-        <table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:12px;"><tr><td bgcolor="#F9B715" style="background-color:#F9B715;border-radius:11px;padding:4px 11px;font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:10px;letter-spacing:1px;color:#0B1124;text-transform:uppercase;">Plazas limitadas</td></tr></table>
-        <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:600;font-size:15px;color:#0B1124;margin-bottom:14px;">Presencial en Barcelona</div>
-        
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-        <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">1.</td>
-        <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">Resp&oacute;ndeme a este email o <a href="mailto:comunicaciones@repscan.com?subject=Reserva%20de%20plaza%20-%20Seminario%20ITeC%2029%20de%20septiembre&body=Hola%2C%0A%0AQuiero%20reservar%20una%20plaza%20presencial%20para%20el%20seminario%20del%2029%20de%20septiembre%20en%20el%20ITeC.%0A%0ANombre%3A%0AEmpresa%3A%0ATelefono%3A%0A%0AGracias." style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">escr&iacute;benos aqu&iacute;</a> y te reservo una de las plazas.</td>
-      </tr></table>
-        
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-        <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">2.</td>
-        <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">Te confirmamos la plaza por email.</td>
-      </tr></table>
-        
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-        <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">3.</td>
-        <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">El 29 de septiembre a las 10:00 en {{DIRECCION}} (Barcelona). <a href="{{LINK_MAPA}}" target="_blank" style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">Ver en el mapa</a>.</td>
-      </tr></table>
-        <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:12px;line-height:1.5;color:#6B7280;margin-top:2px;">Te recomendamos llegar unos minutos antes.</div>
-      </td></tr></table>
-    </td>
-    <td class="col-gap" width="4%" style="font-size:0;line-height:0;">&nbsp;</td>
-    <!-- streaming -->
-    <td class="col" width="44%" valign="top">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F7FA" style="background-color:#F5F7FA;border-radius:8px;"><tr><td style="padding:20px 18px;">
-        <table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:12px;"><tr><td bgcolor="#E1EAF3" style="background-color:#E1EAF3;border-radius:11px;padding:4px 11px;font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:10px;letter-spacing:1px;color:#165E91;text-transform:uppercase;">Sin reserva</td></tr></table>
-        <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:600;font-size:15px;color:#0B1124;margin-bottom:14px;">En streaming</div>
-        <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;">No hace falta inscribirse. El mismo martes 29 a las 10:00, <a href="https://youtube.com/live/xxxdfa-IvsY?feature=share" target="_blank" style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">se sigue por este enlace</a>.</div>
-      </td></tr></table>
-    </td>
-  </tr></table>
+  <!-- presencial -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F7FA" style="background-color:#F5F7FA;border-radius:8px;"><tr><td style="padding:20px 18px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:12px;"><tr><td bgcolor="#F9B715" style="background-color:#F9B715;border-radius:11px;padding:4px 11px;font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:10px;letter-spacing:1px;color:#0B1124;text-transform:uppercase;">Plazas limitadas</td></tr></table>
+    <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:600;font-size:15px;color:#0B1124;margin-bottom:14px;">Presencial en Barcelona</div>
+    
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">1.</td>
+          <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">Resp&oacute;ndeme a este email o <a href="mailto:comunicaciones@repscan.com?subject=Reserva%20de%20plaza%20-%20Seminario%20ITeC%2029%20de%20septiembre&body=Hola%2C%0A%0AQuiero%20reservar%20una%20plaza%20presencial%20para%20el%20seminario%20del%2029%20de%20septiembre%20en%20el%20ITeC.%0A%0ANombre%3A%0AEmpresa%3A%0ATelefono%3A%0A%0AGracias." style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">escr&iacute;benos aqu&iacute;</a> y te reservo una de las plazas.</td>
+        </tr></table>
+    
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">2.</td>
+          <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">Te confirmamos la plaza por email.</td>
+        </tr></table>
+    
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+          <td width="26" valign="top" style="font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:13px;font-weight:500;color:#165E91;padding:0 0 12px 0;">3.</td>
+          <td valign="top" style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;padding:0 0 12px 0;">El 29 de septiembre a las 10:00 en {{DIRECCION}} (Barcelona). <a href="{{LINK_MAPA}}" target="_blank" style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">Ver en el mapa</a>.</td>
+        </tr></table>
+    <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:12px;line-height:1.5;color:#6B7280;margin-top:2px;">Te recomendamos llegar unos minutos antes.</div>
+  </td></tr></table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td height="14" style="font-size:0;line-height:14px;">&nbsp;</td></tr></table>
+  <!-- streaming -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F7FA" style="background-color:#F5F7FA;border-radius:8px;"><tr><td style="padding:20px 18px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="margin-bottom:12px;"><tr><td bgcolor="#E1EAF3" style="background-color:#E1EAF3;border-radius:11px;padding:4px 11px;font-family:'DM Mono',Monaco,'Lucida Console',monospace;font-size:10px;letter-spacing:1px;color:#165E91;text-transform:uppercase;">Sin reserva</td></tr></table>
+    <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:600;font-size:15px;color:#0B1124;margin-bottom:10px;">En streaming</div>
+    <div style="font-family:'Poppins','Century Gothic',Helvetica,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.55;color:#3A414F;">No hace falta inscribirse. El mismo martes 29 a las 10:00, <a href="https://youtube.com/live/xxxdfa-IvsY?feature=share" target="_blank" style="color:#165E91;text-decoration:none;border-bottom:1px solid #1C7BBE;">se sigue por este enlace</a>.</div>
+  </td></tr></table>
 </td></tr>
 
 <tr><td class="px" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:26px 40px 36px 40px;">
