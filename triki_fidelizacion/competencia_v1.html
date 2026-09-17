@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quién está justo al lado de tu ficha</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;padding:0;background:#eef0f3;-webkit-font-smoothing:antialiased}
+  table{border-collapse:collapse}
+  img{border:0;display:block;outline:none;text-decoration:none;max-width:100%}
+  a{text-decoration:none}
+  .p{font-family:'Poppins',Helvetica,Arial,sans-serif;font-weight:300;font-size:15px;
+     line-height:1.62;color:#0B1124;margin:0 0 16px}
+  .p b{font-weight:600}
+  .mono{font-family:'DM Mono','Courier New',monospace}
+  @media (max-width:620px){
+    .shell{width:100%!important}
+    .pad{padding-left:22px!important;padding-right:22px!important}
+  }
+</style></head>
+<body>
+<span style="display:none;font-size:1px;color:#eef0f3;max-height:0;overflow:hidden">Y cómo verlo cada día sin coste hasta enero de 2027.</span>
+
+<table role="presentation" width="100%" bgcolor="#eef0f3"><tr><td align="center" style="padding:28px 12px 40px">
+  <table role="presentation" class="shell" width="600" style="width:600px;max-width:600px">
+
+    <!-- HERO: tarjeta de comparativa personalizada -->
+    <tr><td style="background:#0B1124;border-radius:14px 14px 0 0;overflow:hidden;line-height:0">
+      <img src="$[UD:IMG_COMPETENCIA||]$" width="600" alt="Tu ficha comparada con la de dos competidores de tu zona"
+           style="width:100%;height:auto;border-radius:14px 14px 0 0">
+    </td></tr>
+
+    <!-- CUERPO -->
+    <tr><td class="pad" bgcolor="#ffffff" style="padding:34px 38px 8px">
+      <p class="p">Hola $[UD:NOMBRE_CONTACTO||]$,</p>
+      <p class="p">Hemos mirado cómo está hoy tu ficha de Google al lado de la de tus vecinos
+        más cercanos. Arriba tienes el resultado, con datos de esta misma semana.</p>
+      <p class="p">$[UD:LECTURA_COMPETENCIA||]$</p>
+      <p class="p">Esa comparación hoy <b>no la tienes en tu cuenta</b>: la plataforma vigila tus
+        reseñas, no las de quien tienes enfrente. Podemos añadírtela, y hasta enero de 2027
+        no te cuesta nada.</p>
+    </td></tr>
+
+    <!-- REGALO -->
+    <tr><td class="pad" bgcolor="#ffffff" style="padding:8px 38px 0">
+      <table role="presentation" width="100%" style="background:#f1fdf9;border:1px solid rgba(7,212,161,.45);border-radius:10px">
+        <tr>
+          <td width="46" align="center" valign="middle" style="padding:15px 0 15px 16px">
+            <span style="font-family:'DM Mono','Courier New',monospace;font-size:22px;color:#07D4A1">✦</span>
+          </td>
+          <td valign="middle" style="padding:15px 18px 15px 8px">
+            <div style="font-family:'Poppins',Helvetica,Arial,sans-serif;font-size:14.5px;font-weight:500;color:#0B1124;line-height:1.45">
+              Dos fichas de competencia, gratis hasta enero de 2027
+            </div>
+            <div class="mono" style="font-size:11.5px;color:#5c6577;margin-top:4px;letter-spacing:.02em">
+              TÚ ELIGES CUÁLES. NOSOTROS LAS CARGAMOS.
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+
+    <!-- CTA -->
+    <tr><td class="pad" bgcolor="#ffffff" align="left" style="padding:24px 38px 4px">
+      <a href="$[UD:URL_ACTIVAR||]$"
+         style="display:inline-block;background:#07D4A1;color:#0B1124;
+                font-family:'Poppins',Helvetica,Arial,sans-serif;font-weight:600;font-size:15px;
+                padding:14px 30px;border-radius:9px">Quiero activarlo &rarr;</a>
+    </td></tr>
+
+    <!-- CIERRE -->
+    <tr><td class="pad" bgcolor="#ffffff" style="padding:26px 38px 32px">
+      <p class="p" style="margin-bottom:0">Dime que sí y te cargo las dos fichas que ves arriba.
+        Si prefieres seguir a otros competidores, respóndeme con el nombre y cargo esos.</p>
+      <p class="p" style="margin:16px 0 0">Un abrazo,<br><b>Javiera</b></p>
+      <table role="presentation" width="100%" style="margin-top:22px;border-top:1px solid #e7ebf0">
+        <tr><td style="padding-top:16px">
+          <div class="mono" style="font-size:11.5px;color:#0B1124;font-weight:500;letter-spacing:.06em">
+            REP<span style="color:#07D4A1">&#9679;</span>SCAN
+          </div>
+          <div class="mono" style="font-size:10.5px;color:#8a93a3;margin-top:5px;line-height:1.6">
+            Javiera Valenzuela · Marketing · repscan.com<br>
+            Datos de Google consultados el $[UD:FECHA_DATOS||]$.
+          </div>
+        </td></tr>
+      </table>
+    </td></tr>
+
+    <tr><td bgcolor="#ffffff" style="border-radius:0 0 14px 14px;height:6px;line-height:6px">&nbsp;</td></tr>
+
+  </table>
+</td></tr></table>
+</body></html>
